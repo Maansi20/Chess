@@ -1,0 +1,52 @@
+Objective: Create a fully functional chess game using Pygame that includes the following features:
+
+Game Board:
+
+Visually represent an 8x8 chess board in the Pygame window.
+Player Turns:
+
+Clearly indicate which player's turn it is (Player 1(white) or Player 2(black)).
+Players should alternate turns when moving their pieces. 
+Input Handling:
+
+Detect mouse clicks on the squares to select and move pieces.
+Prevent placing pieces on non-eligible squares.
+Piece Movement:
+
+Allow each piece to move according to standard chess rules.
+Highlight possible moves when a piece is selected.
+Check & Checkmate:
+
+Detect when a player's king is in check.
+Display a message if a player is put in check or checkmate.
+Game Conditions:
+
+End the game when a player wins and display the appropriate message.
+Allow for draws (stalemate conditions).
+Reset Option:
+
+Provide an option to reset the game by pressing a key (e.g., 'R' for Reset).
+Basic Graphics:
+
+Use images same as that of real chess pieces to represent the different pieces and the board. 
+Ensure the chess pieces have a professional and proper look, resembling polished, real chess pieces, enhancing the visual appeal to match a professional chess game.
+Game Loop:
+
+Implement a standard Pygame event loop for handling input, updating game state, and drawing.
+AI Assistance:
+
+Integrate a simple AI opponent that can play against the player.
+Use VS Code's built-in AWS GUI for AI assistance.
+
+Working Timer:
+start the timer after the white moves for the first time
+Implement a countdown timer of "3 minutes" for each player.
+Include sound effects that play when the timer runs out or when a player makes a move.
+Code Quality:
+
+Prioritize clean, readable, and well-structured code.
+Ensure all necessary Pygame imports are included, and the game is fully runnable.
+Additional Considerations:
+Ensure that the game handles edge cases, such as invalid moves and game resets.
+Provide clear instructions or a help menu for new players.
+Consider adding a settings menu for adjusting sound and graphics options.use this code and make a 3D INTERFACE of  chess model
